@@ -1,0 +1,430 @@
+<div class="container-fluid ">
+  <blockquote class="blockquote text-center">
+    <div class="h4 mt-2" style="text-align: center;"> Total Cost of Ownership (TCO) Report</div>
+    <footer class="blockquote-footer">Amway's Projected Average Annual SAVINGS (Years 1 - 3) <cite
+        title="Source Title"><strong>20% to 30%</strong></cite></footer>
+  </blockquote>
+  <hr>
+  <div class="row">
+    <!-- <div class="col-3 mb-1">
+      <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="sidebar nav-link active fontSize19" id="home-tab" data-toggle="tab" href="#home" 
+          role="tab">What You
+            told us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="sidebar nav-link fontSize19" id="profile-tab" data-toggle="tab" href="#profile"
+            role="tab">DriveStream's Cloud assure Model - What is it</a>
+        </li>
+        <li class="nav-item">
+          <a class="sidebar nav-link fontSize19" id="contact-tab" data-toggle="tab" href="#contact" role="tab">Amwya's
+            TCO Summary</a>
+        </li>
+      </ul>
+    </div> -->
+
+    <!-- <div class=" col-8"> -->
+    <div class="col-12">
+      <div class="">
+        <h4>Section A: What You told us</h4>
+        <div class=" tab-content" id="myTabContent">
+          <div class=" tab-pane show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+            <div class="row">
+              <div class="col-sm-6 ">
+
+                <!-- 1st row -->
+                <div class="card ebs">
+                  <div class="card-header heading">
+                    General Information
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Amway is currently operating its Financial platform on Oracle's EBS Application Suite.
+                      Amway operates in 8 country/countries and has a Financial User population of 100 headquartered in
+                      Oregon. </p>
+                  </div>
+                </div>
+                <br>
+                <!-- 2nd row -->
+                <div class="card ebs">
+                  <div class="card-header heading">
+                    HeadCount Information
+                  </div>
+                  <div class="card-body">
+                    <p>
+                      Amway has a team of 17 members supporting the current application. This team consists of 4
+                      Functional FTEs, 1 Developer FTEs, 1 System Admin/DBA FTEs and 11 Consultants/Contractors.
+                      The estimated annual payroll cost for this team is estimated at $1,764,000!
+                    </p>
+                  </div>
+                </div>
+                <!-- 3rd row -->
+                <div class="card ebs">
+                  <div class="card-header heading">
+                    Application Footprint
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Amway has the following EBS modules running on version R 12.2.4 implemented:</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="outerHead">
+                  <h5 class="text-center mb-0">Current Spend</h5>
+                </div>
+                <table class="table table-bordered table-responsive ebs2 ">
+                  <thead>
+                    <h6 class="card-header text-center">Spend Category</h6>
+                    <th class="card-header">EBS</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Software License Cost/Year (Oracle)</td>
+                      <th contenteditable="true"></th>
+                    </tr>
+                    <tr>
+                      <td>Software Support/Per Year</td>
+                      <th contenteditable="true" scope="row"> </th>
+
+                    </tr>
+                    <tr>
+                      <td>Legacy Software Support/Per Year (Oracle)</td>
+                      <th contenteditable="true" scope="row"></th>
+                    </tr>
+                    <tr>
+                      <td>Implementation Cost/Year (DS)</td>
+                      <!-- <th contenteditable="true" scope="row" ></th> -->
+                      <input type="date" class="form-control">
+                    </tr>
+                    <tr>
+                      <td>Software Upgrade Cost/18 Months</td>
+                      <th contenteditable="true" scope="row">$--</th>
+                    </tr>
+                    <tr>
+                      <td>Hardware Cost/Year</td>
+                      <th contenteditable="true" scope="row">$7,20,000</th>
+                    </tr>
+                    <tr>
+                      <td>Support FTE Headcount Cost/Year</td>
+                      <th contenteditable="true" scope="row">$17,64,000</th>
+                    </tr>
+                    <tr>
+                      <td>Legacy Support/Per Year (DS)</td>
+                      <th contenteditable="true" scope="row">$-</th>
+                    </tr>
+                    <tr>
+                      <td>Total</td>
+                      <th contenteditable="true" scope="row">$43,84,000</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12 ">
+                <div class="ebs">
+                  <h4>EBS Financials</h4>
+                  <hr>
+                  <div class="altify-question">
+                    <ul class="altify-question-list">
+                      <li *ngFor="let question of questionList;let i = index">
+                        <h6>{{question.description}}</h6>
+                        <div class="altify-question-list-action">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="{{i}}"
+                              value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Licenced</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="{{i}}"
+                              value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Currently being used</label>
+                          </div>
+                        </div>
+
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <br>
+            <div class="card ebs">
+              <div class="card-header heading">
+                Application Upgrade History
+              </div>
+              <div class="card-body">
+                <p>
+                  Amway has performed 2 upgrades since Feb-2018 with an average spend of $120,000.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- Section - B -->
+          <h4> Section - B: DriveStream's Cloud assure Model - What is it</h4>
+
+          <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="card ebs">
+              <div class="card-header heading">
+                Cloud Assure Model
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Cloud Assure is a unique Drivestream offering which enables clients to migrate their on-premise Oracle
+                  application to the Oracle Cloud. This model facilitates this move to the cloud by removing obstacles
+                  such as up-front implementation cost,
+                  anxiety of maintaining the Cloud Application, maintaining the existing on-premise implementation while
+                  moving to the cloud while making sure that all business processes are mapped and ready to be used on
+                  the new Oracle Cloud Platform.
+                </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-4">
+                <div class="card ebs">
+                  <div class="card-header heading">
+                    Cloud Assure
+                  </div>
+                  <div class="report">
+                    <ul class="list-group">
+                      <li class="list-group-item">Guaranteed TCO Reduction </li>
+                      <li class="list-group-item">Fixed monthly fee model</li>
+                      <li class="list-group-item">Immediate reduction in current spend</li>
+                      <li class="list-group-item">End to End services for Cloud Implementation</li>
+                      <li class="list-group-item">Ongoing Maintenance for existing Oracle on-premise application(s) as
+                        well as Oracle Cloud </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="card ebs">
+                  <div class="card-header heading">
+                    Drivestream's Cloud Assure Model:
+                  </div>
+                  <div class="">
+                    <ul class="list-group">
+                      <li class="list-group-item"><strong>1. </strong>Assumes Maintenance and Support of current
+                        PeopleSoft or EBS system </li>
+                      <li class="list-group-item"><strong>2. </strong>Strategizes and Recommends a Single or Multi-Phase
+                        Migration from On-Premise to the Oracle Cloud</li>
+                      <li class="list-group-item"><strong>3. </strong>Includes Custom Migration of Current Business
+                        Critical Customizations Not Supported by Delivered Functionality by Leveraging Oracle’s Platform
+                        as a Service (PaaS)</li>
+                      <li class="list-group-item"><strong>4. </strong>Includes Post implementation Application
+                        Maintenance Services for the Newly Deployed Oracle Cloud Solution</li>
+                      <li class="list-group-item"><strong>5. </strong>Includes Support for Existing On-Premise Oracle
+                        Application(s) </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <br>
+                <div class="card  ebs">
+                  <table class="table ebs table-bordered">
+                    <thead>
+                      <tr>
+                        <th contenteditable="true" scope="col-md-8 col-lg-4">Cloud Assure Services</th>
+                        <th contenteditable="true" scope="col-md-5 col-lg-4">On-Premise Customers</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Implementation Services</td>
+                        <td>Included</td>
+                      </tr>
+                      <tr>
+                        <td>Maintenance Services</td>
+                        <td>Included</td>
+                      </tr>
+                      <tr>
+                        <td>Upgrade Support</td>
+                        <td>Included</td>
+                      </tr>
+                      <tr>
+                        <td>BPO Services</td>
+                        <td>Optional</td>
+                      </tr>
+                      <tr>
+                        <td>Co-Existence</td>
+                        <td>Included</td>
+                      </tr>
+                      <tr>
+                        <td>PaaS(Custom Bolt-on)</td>
+                        <td>Included</td>
+                      </tr>
+
+                      <tr>
+                        <td>Hosting(if needed for co-existence with On-Premise Portion)</td>
+                        <td>Optional</td>
+                      </tr>
+
+                      <tr>
+                        <td>Pricing Model</td>
+                        <td>Fixed Monthly Fee</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div><br>
+
+          </div>
+          <br>
+          <div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="profile-tab">
+            <h4> Section-C : Amway's TCO Summary</h4>
+
+
+            <div class="row">
+              <div class="col-6 ">
+                <div class="outerHead">
+                  <h5 class="text-center mb-0">Current Spend</h5>
+                </div>
+                <table class="table table-bordered table-responsive ebs2 ">
+                  <thead>
+                    <h6 class="card-header text-center">Spend Category</h6>
+                    <th class="card-header">EBS</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Software License Cost/Year (Oracle)</td>
+                      <th contenteditable="true"></th>
+                    </tr>
+                    <tr>
+                      <td>Software Support/Per Year</td>
+                      <th contenteditable="true" scope="row"> </th>
+
+                    </tr>
+                    <tr>
+                      <td>Legacy Software Support/Per Year (Oracle)</td>
+                      <th contenteditable="true" scope="row"></th>
+                    </tr>
+                    <tr>
+                      <td>Implementation Cost/Year (DS)</td>
+                      <!-- <th contenteditable="true" scope="row" ></th> -->
+                      <input type="date" class="form-control">
+                    </tr>
+                    <tr>
+                      <td>Software Upgrade Cost/18 Months</td>
+                      <th contenteditable="true" scope="row">$--</th>
+                    </tr>
+                    <tr>
+                      <td>Hardware Cost/Year</td>
+                      <th contenteditable="true" scope="row">$7,20,000</th>
+                    </tr>
+                    <tr>
+                      <td>Support FTE Headcount Cost/Year</td>
+                      <th contenteditable="true" scope="row">$17,64,000</th>
+                    </tr>
+                    <tr>
+                      <td>Legacy Support/Per Year (DS)</td>
+                      <th contenteditable="true" scope="row">$-</th>
+                    </tr>
+                    <tr>
+                      <td>Total</td>
+                      <th contenteditable="true" scope="row">$43,84,000</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col">
+
+              </div>
+              <div class="col-md-5 ">
+                <div class="outerHead">
+                  <h5 class="text-center mb-0">Estimated Reduction</h5>
+                </div>
+                <div class="card ebs2">
+                  <div class="card-header ">
+                    (First 3 Years Average)
+
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      20% to 30%
+                    </p>
+                  </div>
+                  <div class="card-header">
+                    (Years 4-5)
+                  </div>
+                  <div class="card-body">
+                    34%/Year to 44%/Year
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card ebs">
+                  <div class="card-header heading">
+                    5 Year Cumulative Savings!
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      $64,42,900 to $ 71,21,100
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 offset-md-6">
+                <div class="outerHead">
+                  <h5 class="text-center mb-0">Estimated Reduction</h5>
+                </div>
+                <div class="card ebs2">
+                  <div class="card-header ">
+                    (First 3 Years Average)
+
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      20% to 30%
+                    </p>
+                  </div>
+                  <div class="card-header">
+                    (Years 4-5)
+                  </div>
+                  <div class="card-body">
+                    34%/Year to 44%/Year
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <h4>5 Year Cumulative Savings</h4>
+            <div class="row">
+  <div class="col-10">
+<div class="chart-wrapper">
+  <canvas baseChart 
+  [datasets]="barChartData"
+  [labels]="barChartLabels"
+
+  [options]="barChartOptions"
+  [plugins]="barChartPlugins"
+  [legend]="barChartLegend"
+  [chartType]="barChartType">
+</canvas>
+</div>
+</div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

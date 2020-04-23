@@ -1,0 +1,59 @@
+
+<div class="container-fluid " >
+    <div class="row justify-content-center mt-0">
+        <div class="col text-center  mt-3 mb-2">
+            <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                <div class=" mt-3 mb-3"> 
+              <!-- <div class="container">  -->
+                <br>
+                <p class="h3 text-center">TOTAL COST OF OWNERSHIP CALCULATOR</p>
+                <br>
+                
+                <br>
+               
+                <div class="col-md-12 mx-0 ">
+                        <form id="msform">
+                            <!-- progressbar -->
+                            <ul id="progressbar">
+                                <li class="active" id="account"><strong>Login</strong></li>
+                                <li id="personal"><strong>Client</strong></li>
+                                <li id="payment"><strong>JDA</strong></li>
+                                <li id="confirm"><strong>Output</strong></li>
+                            </ul> <!-- fieldsets -->
+                            <fieldset>
+                                <div class="form-card">
+                                    <app-home></app-home> 
+                                </div>
+                                 <input type="button" name="next" class="next action-button" value="Next Step" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <app-client></app-client>
+                                </div> 
+                                <input type="button" name="previous" class="previous text-center action-button-previous" value="Previous" />
+                                <input type="button" href="javascript:void();" name="next" class="next action-button text-center" value="Next Step" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <app-oracle></app-oracle>
+                                </div>
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                                 <input type="button" name="next" class="next action-button" value="Next Step" />
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card ">
+                                    <app-report-tco></app-report-tco>
+                                </div>
+                                <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                                <input type="button" name="next" class="next action-button" value="Finish" />
+                            </fieldset>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+  </div>
+  
+  

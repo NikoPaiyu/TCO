@@ -1,0 +1,58 @@
+span{
+    margin-left:50px;
+}
+#exampleModal .modal-dialog {
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    top: 50%;
+    margin: 0 auto;
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1a3736;
+
+}
+h4,h5{ 
+   color: #363434;
+//    color: rgb(98, 107, 106);
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+ font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 5px 5px 0px;
+  }
+  
+.ebs{
+    background-color: white; 
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.head1{
+    text-decoration: solid;
+    font-family:'Google Sans','Noto Sans Myanmar UI',arial,sans-serif ;
+    //color: rgb(19, 57, 100);
+    color: rgb(98, 107, 106);
+}
+.formlabel{
+   // font: 300 16px roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    // z-index: 1;
+    line-height: 26px;   
+}
+.box1{
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+// Styles for wizard layout

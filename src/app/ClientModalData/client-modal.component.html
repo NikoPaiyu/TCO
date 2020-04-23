@@ -1,0 +1,53 @@
+<br>
+  <table class="table table-bordered table-hover">
+    <thead>  
+      <h5 class="card-header" >
+        <i class="fas fa-trash icon" (click)="delete(index1,headertype)" title="Click to delete" ></i>
+           {{headertype}} UPGRADE- {{count1}}
+      </h5>
+    <th class="card-header">Values</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Upgrade Type</td>
+        <th contenteditable="true" scope="row">
+          <select  class="btn btn-default dropdown-toggle" required [(ngModel)]="modalCreated">       
+            <option  [ng-selected]="modalCreated">Technical</option>
+            <option  [ng-selected]="modalCreated">Functional</option>
+            <option [ng-selected]="modalCreated">Transformational</option>
+          </select> </th>       
+      </tr>
+      <tr>
+        <td>Duration(Weeks)</td>
+        <th contenteditable="true" scope="row">{{duration1}}</th>
+      </tr>
+
+      <tr>
+        <td>Upgrade Performed internally or was a partner used <i class="fas fa-question" data-toggle="tooltip" data-placement="top" 
+          title="By what means did you perform your upgrade?
+          Did you hire a Third Party Implementation Partner to perform the upgrade?" tabindex="0" style="color:red"></i>
+        </td>
+
+        <th contenteditable="true" scope="row">
+          <select  class="btn btn-default dropdown-toggle" required [(ngModel)]="performed2">       
+            <option  [ng-selected]="performed2">Internally</option>
+            <option  [ng-selected]="performed2">Partner</option>
+          </select> 
+        </th>
+      </tr>
+      <tr style="margin-bottom: 15px;">
+        <td>Date</td>
+        <input type="date" class="form-control" style="margin-bottom: -25px;" [(ngModel)]="date1">
+      </tr>
+      <tr>
+        <td>Cost</td>
+
+        <th contenteditable="true" scope="row">
+          <div class="input-group prepend">
+            <span class="input-group-text">$</span>
+            <span class="input-group-text">{{cost1}}</span>
+        </div>
+        </th>
+      </tr>
+    </tbody>
+  </table> 

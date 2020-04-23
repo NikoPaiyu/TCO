@@ -1,0 +1,52 @@
+<div class="container">
+    <!-- <h3 class="mt-3 text-center">BLue Yonder INPUT</h3> -->
+<div class="row">
+<div class="col-12 ">
+  <div class="ebs">
+  <h4 class="form-group EbsDetails row">EBS Financials</h4>
+
+    <!-- <h4>EBS Financials</h4> -->
+    
+    <div class="altify-question">
+  
+      <ul class="altify-question-list">
+  
+        <li *ngFor="let question of questionList;let i = index">
+          <h6>{{question.description}}</h6>
+          <div class="altify-question-list-action">
+  
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="{{i}}" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Licenced by LatticeSemi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="{{i}}" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Available on the Cloud</label>
+            </div>
+            <div class="form-text form-text-inline" style="float: right; margin-left: 220px;">
+                <input class="form-text-input form-control"  type="text"name="{{i}}" placeholder="($) price per user ">
+            </div>  
+          </div>
+
+      
+        </li>
+        <div class="footer" style="float:right; margin-right:35px" >
+     
+     <label class="display-3">Total Cost</label>
+     <input  type="text"  placeholder="($)"  class="form-text-input form-control">
+     
+        </div>
+       
+        <div class="form-text form-text-inline">
+      </div>          
+      </ul>
+  </div>
+    </div>
+  
+  </div>
+  <!-- <div class="col-2">
+      <button (click)="Url()" class="btn btn-primary">Client Input <i class="fas fa-arrow-right"></i></button>
+  </div> -->
+</div>
+</div>
+<!-- <br><br> -->

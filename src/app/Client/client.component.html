@@ -1,0 +1,618 @@
+<div class="container-fluid">
+<!--<hr> -->
+<div class="row">
+  <!-- <div class="col-2">
+    <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="sidebar nav-link active fontSize19" id="home-tab" data-toggle="tab" href="#home"
+          role="tab">LatticeSemi's Current EBS Footprint
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="sidebar nav-link fontSize19" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+          aria-controls="profile" aria-selected="false">LatticeSemi's OnPremise Costs</a>
+      </li>
+      <li class="nav-item">
+        <a class="sidebar nav-link fontSize19" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+          aria-controls="contact" aria-selected="false">LatticeSemi's Other Financial Application(Non-Oracle)</a>
+      </li>
+    </ul>
+  </div> -->
+  <div class=" col-12">
+    <div class="">
+      <div class=" tab-content" id="myTabContent">
+        <div class=" tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="row">
+            <div class="col-6">
+              <form class=" ebs1">
+                <h4 class="form-group EbsDetails row">Lattice Semis Background EBS Details</h4>
+                
+                
+                <div class="form-group EbsDetails row m-1">
+                  <!-- <label class="col-7 col-form-label ">Current On-premise Application </label>
+                  <div class="col-5">
+                    <input type="text" class="form-control" placeholder="">
+                  </div> -->
+                  <h5>Current On-premise Application</h5>
+                  <input type="text" class="inputBox form-control" placeholder="">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Current On-premise Application Version#</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5 class="col-form-label">Level of Customization(Estimated) 
+                    <i class="fas fa-question" data-toggle="tooltip" data-placement="top"
+                      title="How customized is you current application?
+          Have you created custom built objects or mini-applications called bolt-ons to meet certain business requirements not available in the out-of-the-box functionality?
+          Have you made minor or significant tweaks to delivered code, objects or functionality in order to meet certain business requirements not available in the out-of-the-box functionality?"
+                      tabindex="0" style="color:red"></i>
+                  </h5>
+                  <!-- <div class="col-5"> -->
+                    <select class=" inputBox form-control" id="sel1">
+                      <option>Low</option>
+                      <option>Medium</option>
+                      <option>High</option>
+                    </select>
+                  <!-- </div> -->
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>LatticeSemi's Primary Location (HQ State)</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Total Number of Employees (FTEs)</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Total Number of <strong>Financial Users (FTEs)</strong></h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Estimated Employee Growth (%)</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>How many Years</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>What is Your Corporate Marginal Tax Rate (%)</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>What is your Amortization Schedule? (Years)</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Total Number of Managed Resources
+                    <i class="fas fa-question" data-toggle="tooltip" data-placement="top" title="Managed Resource: is defined as an individual authorized by you to use the programs which are installed on a single server or on multiple servers regardless of whether the individual is actively using the programs at any given time. In addition your employees, contractors, partners and any other individual or entity managed by the program shall be counted for the purposes of determining the number of Managed Resource licenses required. 
+                    " tabindex="0" style="color:red"></i>
+            
+                  </h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Number of Countries in Scope</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Total Number of Invoice Line Items per Year
+                    <i class="fas fa-question" data-toggle="tooltip" data-placement="top"
+                      title="During a 12 month period how many Invoice Line items does your Company process. While an exact number is encouraged a rough estimate will be accepted. "
+                      tabindex="0" style="color:red"></i></h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Total Number of Expense Reports per Year
+                    <i class="fas fa-question" data-toggle="tooltip" data-placement="top"
+                      title="
+        Expense Report: is defined as the total number of expense reports processed by Internet Expenses during a 12 month period. While an exact number is encouraged a rough estimate will be accepted."
+                      tabindex="0" style="color:red"></i></h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                <div class="form-group  EbsDetails row m-1">
+                  <h5>Total Annual Application Support Fees Payable to JDA (for all
+                    modules owned)</h5>
+                    <input type="text" class="inputBox form-control">
+                </div>
+                
+                
+                <!-- <div class=" form-group row m-2">
+                  <label class=" col-7 col-form-label ">
+
+                    <i class="fas fa-question" data-toggle="tooltip" data-placement="top"
+                      title="How customized is you current application?
+          Have you created custom built objects or mini-applications called bolt-ons to meet certain business requirements not available in the out-of-the-box functionality?
+          Have you made minor or significant tweaks to delivered code, objects or functionality in order to meet certain business requirements not available in the out-of-the-box functionality?"
+                      tabindex="0" style="color:red"></i>
+                  </label>
+
+                  <div class="col-5">
+                    <select class="form-control" id="sel1">
+                      <option>Low</option>
+                      <option>Medium</option>
+                      <option>High</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">LatticeSemi's Primary Location (HQ State)</label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">Total Number of Employees (FTEs)</label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">Total Number of <strong>Financial Users (FTEs)</strong></label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">Estimated Employee Growth (%)</label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">Over How Many Years?</label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">What is Your Corporate Marginal Tax Rate (%)</label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">What is your Amortization Schedule? (Years)</label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">Total Number of Managed Resources
+                    <i class="fas fa-question" data-toggle="tooltip" data-placement="top" title="Managed Resource: is defined as an individual authorized by you to use the programs which are installed on a single server or on multiple servers regardless of whether the individual is actively using the programs at any given time. In addition your employees, contractors, partners and any other individual or entity managed by the program shall be counted for the purposes of determining the number of Managed Resource licenses required. 
+        " tabindex="0" style="color:red"></i>
+
+                  </label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">Number of Countries in Scope</label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">Total Number of Invoice Line Items per Year
+                    <i class="fas fa-question" data-toggle="tooltip" data-placement="top"
+                      title="During a 12 month period how many Invoice Line items does your Company process. While an exact number is encouraged a rough estimate will be accepted. "
+                      tabindex="0" style="color:red"></i>
+
+                  </label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class=" col-7 col-form-label ">Total Number of Expense Reports per Year
+                    <i class="fas fa-question" data-toggle="tooltip" data-placement="top"
+                      title="
+        Expense Report: is defined as the total number of expense reports processed by Internet Expenses during a 12 month period. While an exact number is encouraged a rough estimate will be accepted."
+                      tabindex="0" style="color:red"></i>
+
+                  </label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row m-2">
+                  <label class="col-7 col-form-label ">Total Annual Application Support Fees Payable to Oracle (for all
+                    modules owned)</label>
+                  <div class="col-5">
+                    <input type="text" class="form-control">
+                  </div>
+                </div> -->
+              </form>
+            </div>
+
+            <!-- <br> -->
+            
+            <div class="col-6">
+              <div class="col1 ebs">
+                <div class="ebs">
+                <h4 class="form-group EbsDetails row">EBS Financials</h4>
+                
+
+                <div class="altify-question">
+
+                  <ul class="altify-question-list">
+
+                    <li *ngFor="let question of questionList;let i = index">
+                      <h6>{{question.description}}</h6>
+                      <div class="altify-question-list-action">
+                        <div class="row">
+                          <div class="col-5">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="{{i}}"
+                                value="option1">
+                              <label class="form-check-label m-1" for="inlineCheckbox1">Licenced</label>
+                            </div>
+                            
+                          </div>
+                          <div class="col-7">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="{{i}}"
+                                value="option1">
+                              <label class="form-check-label m-1" for="inlineCheckbox1">Currently being used</label>
+                            </div>
+                           
+                          </div>
+                          <div class="w-100"></div>
+                          <div class="col-5">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="{{i}}"
+                                value="option1">
+                              <label class="form-check-label m-1" for="inlineCheckbox1"># of FTE's</label>
+                            </div>
+      
+                          </div>
+                          <div class="col-7">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="{{i}}"
+                                value="option1">
+                              <label class="form-check-label m-1" for="inlineCheckbox1">Level of Customization</label>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        <br> <br>
+                        
+                      </div>
+
+                    </li>
+
+                  </ul></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <hr>
+        <!-- <div class=" tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"> -->
+          <h4>Section: B</h4>
+
+          <div class=" tab-pane show active " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+          <div class="col ebs">
+            <h4>Amway's EBS Financial Upgrade Costs</h4>
+            <span class="headin">
+              INSTRUCTIONS:</span><br>
+            <div class="instru">Please specify the nature of the upgrades performed:<br>
+
+              a) Technical = Upgrade only the application to bring it up to the latest Toolset ONLY<br>
+              b) Functional = Upgrade the Toolset as well as implement new Functionality<br>
+              c) Transformational = Upgrade Toolset, Implement new functionality, as well as retire customizations and
+              re-engineer business process <br>(based on new functionality available)
+            </div>
+
+            <div class="button-group">
+              <button type="button " class="btn Add mb-2" style="float: right;" data-toggle="modal"
+                data-target="#appUpgrade">
+                Add
+              </button>
+              <!-- <button type="button" class="btn btn-danger mb-2" title="Click on any table header to delete" style="float: right;" 
+  (click)="choseToDelete(count1,header1)"><i class="fa fa-times" aria-hidden="true"></i>
+  </button>-->
+            </div>
+            <br>
+            <div class="modal fade" id="appUpgrade" tabindex="-1" data-backdrop="false" role="dialog" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h6 class="modal-title">Application Upgrade</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                    <div class="form-group row">
+                      <label for="" class="col-5 col-form-label">Choose Upgrade Type</label>
+                      <div class="col-6">
+                        <select class="form-control" required [(ngModel)]="header1">
+                          <option ng-selected="header1">INFRASTRUCTURE</option>
+                          <option ng-selected="header1">APPLICATION</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="email_input" class="col-5 col-form-label">Upgrade Type</label>
+                      <div class="col-6">
+                        <select class="form-control" [(ngModel)]="upgradetype">
+                          <option ng-selected="upgradetype">Technical</option>
+                          <option ng-selected="upgradetype">Functional</option>
+                          <option ng-selected="upgradetype">Transformational</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="email_input" class="col-5 col-form-label">Duration(weeks)</label>
+                      <div class="col-6">
+                        <input id="upgrade" class="form-control" type="text" [(ngModel)]="duration">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="" class="col-5 col-form-label">Upgrade performed Internally or was a partner used
+                        <i class="fas fa-question" data-toggle="tooltip" data-placement="top" title="By what means did you perform your upgrade?
+          Did you hire a Third Party Implementation Partner to perform the upgrade?" tabindex="0"
+                          style="color:red"></i>
+                      </label>
+                      <div class="col-6">
+                        <select class="form-control" [(ng-model)]="perf">
+                          <option ng-selected="perf">Internally</option>
+                          <option ng-selected="perf">Partner</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="email_input" class="col-5 col-form-label">Upgrade-1 Date</label>
+                      <div class="col-6">
+                        <input id="upgrade1" class="form-control" type="date" [(ngModel)]="date">
+                      </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                      <label for="email_input" class="col-5 col-form-label">Upgrade-1 Cost</label>
+                      <div class="col-6">
+                        <input id="upgrade" class="form-control" type="text" [(ngModel)]="cost">
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary"
+                      (click)="addingModal1(header1,upgradetype,duration,date,cost,perf)" id="save"
+                      data-dismiss="modal">Save</button>
+                  </div>
+                </div>
+              </div>
+            </div><br>
+          </div>
+
+          <app-client-modal *ngFor="let upgradetype of appUpgrades; let x = index" [headertype]="upgradetype.header"
+            [modalCreated]="upgradetype.type" [duration1]="upgradetype.duration" [date1]="upgradetype.date"
+            [performed2]="upgradetype.performed" [cost1]="upgradetype.cost" [count1]="upgradetype.count"
+            (ind)="choseToDelete1($event)" (head)="choseToDelete2($event)" [index1]="x"> </app-client-modal>
+
+          <!--HOSTED INFRASTRUCTURE-->
+          <br>
+          <table class="table table-responsive table-bordered table-hover ebs">
+            <thead>
+              <h5 class="card-header">HOSTED INFRASTRUCTURE</h5>
+              <th class="card-header">Values</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Is your current hardware hosted by a Third Party Vendor?</td>
+                <th>
+                  <select class="btn btn-default dropdown-toggle" data-toggle="dropdown" [(ngModel)]="val1">
+                    <option ng-selected="val1" class="dropdown-item text-1">YES</option>
+                    <option ng-selected="val1" class="dropdown-item text-1">NO</option>
+                  </select>
+                </th>
+              </tr>
+              <tr>
+                <td>If hosted, please specify your annual spend</td>
+                <th contenteditable="true" scope="row"> </th>
+              </tr>
+
+              <tr>
+                <td>Is the hosting provider offering application support?</td>
+                <th>
+                  <select class="btn btn-default dropdown-toggle" data-toggle="dropdown" [(ngModel)]="val1">
+
+                    <option ng-selected="val1" class="dropdown-item text-1">YES</option>
+                    <option ng-selected="val1" class="dropdown-item text-1">NO</option>
+                  </select>
+                </th>
+              </tr>
+              <tr>
+                <td>If application support is provided in addition to hosting by the hosting vendor,
+                  is the application support cost included in the annual hosting fee? IF NOT, please
+                  provide annual application support cost here</td>
+
+                <th contenteditable="true" scope="row"></th>
+
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+          <!--INHOUSE INFRASTRUCTURE-->
+
+          <table class="table table-bordered table-responsive ebs ">
+            <thead>
+              <h5 class="card-header">INHOUSE INFRASTRUCTURE</h5>
+              <th class="card-header">Values</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Total Number of Physical Servers (Production and Non Production)</td>
+
+                <th contenteditable="true"></th>
+              </tr>
+              <tr>
+                <td>How many virtual instances do you have on these physical servers, for eg. DEV, TEST, UAT, MIRROR,
+                  PARALLEL, etc.?</td>
+                <th contenteditable="true" scope="row"> </th>
+
+              </tr>
+              <tr>
+                <td>What is your <strong> ANNUAL</strong> cost to maintain the physical hardware (please include actual
+                  hardware cost, space cost, power cost, etc.)</td>
+                <th contenteditable="true" scope="row"></th>
+              </tr>
+              <tr>
+                <td>When was the last time you purchased new physical hardware? (dd-mm-yyyy)</td>
+                <!-- <th contenteditable="true" scope="row" ></th> -->
+                <input type="date" class="form-control">
+              </tr>
+              <tr>
+                <td>How much did you spend the last time you purchased new hardware?</td>
+                <th contenteditable="true" scope="row"></th>
+              </tr>
+            </tbody>
+          </table>
+          <!--LatticeSemi's EBS Maintenance costs-->
+
+          <table class="table table-bordered ebs">
+            <thead>
+              <h5 class="card-header">Amway's EBS Maintenance Team Costs</h5>
+              <th class="card-header">Values</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Number of Business FTEs
+                  <i class="fas fa-question" data-toggle="tooltip" data-placement="top"
+                    title="Includes headcount in the LoB and the CFO/CHRO organization such as the business analyst, manual business transactions (e.g. workarounds, reporting, interfaces, data updates) – which could otherwise be automated/optimized in Cloud Apps"
+                    tabindex="0" style="color:red"></i>
+                </td>
+                <th contenteditable="true" scope="row"> </th>
+              </tr>
+              <tr>
+                <td>Number of IT or Technology/Developer FTEs
+                  <i class="fas fa-question" data-toggle="tooltip" data-placement="top" title="`In-house` Developers who directly provide application support/maintenance to all or any application modules currently implemented and utilized within your environment.
+        Developer will assist in the customization, configuration, & upgrade of the application itself.
+        (Serve as a technical resource for the functional user, Review/critique requirement and design documents, Develop application software to automate, improve or change business processes and procedures, Utilize software development life cycle methodologies, processes and procedures, Involved in project from analysis through implementation to ensure all aspects of the technology plan is accounted for, understood, defined, and executed successfully, Performs unit testing)
+        
+        Includes headcount in the CIO organization supporting the end-to-end application stack" tabindex="0"
+                    style="color:red"></i>
+
+                </td>
+                <th contenteditable="true" scope="row"> </th>
+
+              </tr>
+              <tr>
+                <td>Number of System Admin/DBA FTEs
+                  <i class="fas fa-question" data-toggle="tooltip" data-placement="top" title="`In-house` System Admins/DBAs provide application Support/maintenance to all or any application modules currently implemented and utilized within your environment.
+        (Guide technical team through the installation and configuration of the application environment, Develop technical infrastructure design documents and manage them through 
+        the approval processes, Develop and implement the object migration process for the application, Testing & applying patches, updates & fixes for the application)
+        Documentation - Tasks requiring creation of written documents in support of system build, maintenance and operations
+        Environment Support - Implement a support structure for the application environments." tabindex="0"
+                    style="color:red"></i>
+
+                </td>
+                <th contenteditable="true" scope="row"></th>
+              </tr>
+              <tr>
+                <td>Number of Consultants/Contractors
+                  <i class="fas fa-question" data-toggle="tooltip" data-placement="top"
+                    title="External Resources brought in to provide Subject Matter Expertise for application upgrades & to provide application support/maintenance to all or any application modules currently implemented and utilized within your environment."
+                    tabindex="0" style="color:red"></i>
+
+                </td>
+                <th contenteditable="true" scope="row"></th>
+              </tr>
+
+              <tr>
+                <td>Do you sporadically hire consultants/contractors?</td>
+                <th class="">
+                  <select class="btn btn-default dropdown-toggle form-control " data-toggle="dropdown"
+                    [(ngModel)]="val1">
+                    <option ng-selected="val1" class="dropdown-item text-1">YES</option>
+                    <option ng-selected="val1" class="dropdown-item text-1">NO</option>
+                  </select>
+                </th>
+              </tr>
+
+              <tr>
+                <td>If Yes, what is your total consultant/contractor cost per year?</td>
+                <th contenteditable="true"></th>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <hr>
+        <h4>Section C: Amway's Other Financial Application(JDA)</h4>
+        <!-- <div class="tab-pane " id="contact" role="tabpanel" aria-labelledby="profile-tab"> -->
+        <div class=" " id="contact" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="col ebs">
+
+            <div class="" id="divDemo" role="tabpanel">
+              <h5></h5>
+
+              <table class="table appUpgrade table-bordered">
+                <thead>
+                  <tr>
+                    <th contenteditable="true" scope="col-md-8 col-lg-4">Application</th>
+                    <th contenteditable="true" scope="col-md-5 col-lg-4">Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>OBIEEE</td>
+                    <td>Reporting Solution</td>
+                  </tr>
+                  <tr>
+                    <td>Discoverer</td>
+                    <td>Reporting Solution</td>
+                  </tr>
+                  <tr>
+                    <td>SOA</td>
+                    <td>Integration Middle Ware</td>
+                  </tr>
+                  <tr>
+                    <td>12 Applications</td>
+                    <td>Legacy Applications</td>
+                  </tr>
+                  <tr>
+                    <td>Planning</td>
+                    <td>EBS Planning</td>
+                  </tr>
+                  <tr>
+                    <td>Logistics</td>
+                    <td>EBS Logistics</td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="col-2">
+  <button class="btn btn-primary btn-rounded" (click)="Url()"><i class="fas fa-arrow-left"></i> Blue Yonder Input</button>
+</div> -->
+</div>
+<!-- </div>  -->
+<br>
+<!-- <button class="btn btn-primary btn-rounded" style="float: right;" (click)="Output()">
+<i class="fas fa-arrow-right">
+</i>
+  TCO Output</button> -->
+  </div>

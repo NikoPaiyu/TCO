@@ -1,0 +1,323 @@
+/*
+    Major Colors of the UI
+*/
+$primaryColor: #8283A7;
+$secondaryColor: #333;
+$teritaryColor: #fff;
+$renewalColor: #F68657;
+$waringColor: #E71D36;
+
+/*
+    Background Colors of the UI
+*/
+$backgroudColor: #f6f6f6;
+$darkBackgroudColor: #333;
+$LightBackgroudColor: #fff;
+$darkerBackgroudColor: #444;
+
+
+/*
+   Major Form Colors
+*/
+$defaultFontColor: #333;
+$selectBorderColor: #eee;
+$formLabelColor: #666;
+$inputBackgroundColor: #f6f6f6;
+$placeholderColor: #aaa;
+
+/*
+   Others Colors
+*/
+$dividerLine: #eee;
+$boxShadow: #eee;
+
+/*
+   Fonts
+*/
+
+$fontFamily: MetricHPE;
+$fontFamilyRegular: MetricHPE-Regular;
+$fontFamilyLight: MetricHPE-Light;
+$fontFamilyMedium: MetricHPE-Medium;
+
+
+// Start From here
+
+
+/*
+    Major Colors of the UI
+*/
+
+$color-primary: #8283A7;
+$color-secondary: #333;
+$color-tertiary: #fff;
+$color-success: #5CAB7D;
+$color-warning: #FFBC42;
+$color-danger: #F15C5C;
+$color-dark: #444;
+$color-light: #f6f6f6;
+$color-label: #666;
+$color-placeholder: #aaa;
+$color-border: #eee;
+
+/*
+    Additional Colors of the UI
+*/
+
+$altify-assessment: #FFBC42;
+$altify-playbook: #8283A7;
+$altify-relationships: #41D3BD;
+$altify-criteria: #4F86C6;
+$altify-insight: #E85C43;
+$altify-strategy: #FF60A4;
+$altify-actions: #D81159;
+$altify-tandi: #77AAAD;
+
+/*
+    Additional Colors of the UI
+*/
+
+$color-suspect: #D81159;
+$color-identify: #FFBC42;
+$color-qualify: #84B1ED;
+$color-develop: #4F86C6;
+$color-commit: #41D3BD;
+$color-transparent: transparent;
+
+/*
+    Background Color
+*/
+
+$background-color-light: $color-light;
+$background-color-dark: $color-dark;
+
+/*
+    Font
+*/
+
+$font-primary: MetricHPE;
+$font-secondary: Helvetica;
+
+/*
+Headings-font
+*/
+// $font-family:$headings-font-family;
+//  $headings-font-family:MetricHPE;
+
+/*
+    Font Default Color
+*/
+
+$font-default-color: $color-secondary;
+$font-secondary-color: $color-label;
+
+
+/*
+    Font family
+*/
+
+$font-primary-semibold: MetricHPE-Semibold;
+$font-primary-medium: MetricHPE-Medium;
+$font-primary-regular: MetricHPE-Regular;
+$font-primary-light: MetricHPE-Light;
+
+/*
+    Input Element
+*/
+
+$input-element-background-color: $color-light;
+$input-element-border-radius: 3px;
+$input-element-font-size: 14px;
+$input-element-placeholder-color: $color-placeholder;
+$input-element-height: 45px;
+$input-element-border-color: 0px;
+$input-element-padding-left: 15px;
+$input-element-padding-top: 9px;
+$input-element-font-family: $font-primary-regular;
+$input-element-font-color: $color-secondary;
+// Input Element Label
+$input-element-label-font-size: 18px;
+$input-element-label-color: $color-label;
+
+/*
+    Select Element
+*/
+
+$select-element-background-color: transparent;
+$select-element-font-color: $color-secondary;
+$select-element-border-radius: 3px;
+$select-element-font-size: 14px;
+$select-element-height: 45px;
+$select-element-padding-left: 15px;
+$select-element-padding-top: 9px;
+$select-element-border: 2px solid #eee;
+//$select-background-image-url : url('/Users/nik/Desktop/gsp/src/assets/icons/downArrow.svg');
+$select-background-image-position: center right 15px;
+$select-background-image-size: 12px;
+$select-background-repeat: no-repeat;
+// Select Element Label
+$select-element-label-font-size: 14px;
+$select-element-label-color: $color-label;
+
+/*
+    Button Element Colors
+*/
+
+$button-element-background-primary-color: $color-primary;
+$button-element-background-warning-color: $color-warning;
+$button-element-background-danger-color: $color-danger;
+$button-element-background-transparent-color: transparent;
+
+/*
+    Button Element
+*/
+
+$button-element-height: 45px;
+$button-element-radius: 3px;
+$button-element-padding-left: 30px;
+$button-element-padding-top: 7px;
+$button-element-padding-right: 30px;
+$button-element-border-color: transparent;
+$button-element-font-color-light: $color-tertiary;
+$button-element-font-color-grey: $color-label;
+
+/*
+    Edit Button Element
+*/
+
+$editbutton-element-height: 45px;
+$editbutton-element-radius: 3px;
+$editbutton-element-padding-left: 30px;
+$editbutton-element-padding-top: 7px;
+$editbutton-element-padding-right: 30px;
+$editbutton-element-border-color: transparent;
+$editbutton-element-border: 0px;
+$editbutton-element-backgroung-color: transparent;
+$editbutton-element-font-color-light: $color-tertiary;
+$editbutton-element-font-color-grey: $color-label;
+//$editbutton-background-image-url : url('../icons/edit.svg');
+$editbutton-background-repeat: no-repeat;
+$editbutton-background-image-position: center left 0px;
+$editbutton-background-image-size: 11px;
+
+/*
+    Detail View Button Element
+*/
+
+$detailViewbutton-background-repeat: no-repeat;
+$detailViewbutton-background-image-position: top 4px right 0px;
+$detailViewbutton-background-image-size: 14px;
+$detailViewbutton-element-height: 45px;
+$detailViewbutton-element-radius: 3px;
+$detailViewbutton-element-padding-left: 0px;
+$detailViewbutton-element-padding-top: 7px;
+$detailViewbutton-element-padding-right: 20px;
+$detailViewbutton-element-border-color: transparent;
+$detailViewbutton-element-border: 0px;
+$detailViewbutton-element-backgroung-color: transparent;
+$detailViewbutton-element-font-color-light: $color-tertiary;
+$detailViewbutton-element-font-color-grey: $color-label;
+
+/*
+    Clear Button Element
+*/
+
+$clearButton-element-border: 0px;
+$clearButton-element-height: 45px;
+$clearButton-element-padding-top: 5px;
+
+/*
+    Back Button Element
+*/
+
+$backButton-element-border: 0px;
+$backButton-element-height: 45px;
+$backButton-element-padding-top: 5px;
+
+
+/*
+    Checkbox Element
+*/
+
+$checkbox-element-height: 25px;
+$checkbox-element-width: 25px;
+$color-border-checkbox-color-default: #eee;
+$color-border-checkbox-color-hover: #ddd;
+$color-border-checkbox-color-selected: $color-primary;
+$color-tick-checkbox: $color-primary;
+
+/*
+    Input Search Element
+*/
+
+$search-element-background-color: $color-light;
+$search-element-border-radius: 100px;
+$search-element-font-size: 14px;
+$search-element-placeholder-color: $color-placeholder;
+$search-element-height: 35px;
+$search-element-border-color: transparent;
+$search-element-border: 0px solid $search-element-border-color;
+$search-element-padding-left: 33px;
+$search-element-padding-top: 7px;
+$search-element-font-family: $font-primary-regular;
+$search-element-font-color: $color-secondary;
+$search-background-image-url: url('../icons/search.svg');
+$select-background-repeat: no-repeat;
+$search-background-image-position: center left 11px;
+$search-background-image-size: 14px;
+
+/*
+    Rounded Button Element
+*/
+
+$roundbutton-element-height: 50px;
+$roundbutton-element-width: 50px;
+$roundbutton-element-border: 0px;
+$roundbutton-element-radius: 100%;
+$roundbutton-element-box-shadow: 0px 3px 6px #ddd;
+
+/*
+    Primary Rounded Button Element
+*/
+
+$roundbutton-element-primary-background: $color-primary;
+
+/*
+    Dark Rounded Button Element
+*/
+$roundbutton-element-secondary-height: 40px;
+$roundbutton-element-secondary-width: 40px;
+$roundbutton-element-secondary-background: $color-secondary;
+
+/*
+    Primary Icon Properties for Rounded Button
+*/
+
+$primary-icon-background-image-position: center;
+$primary-icon-background-image-size: 22px;
+$primary-icon-background-repeat: no-repeat;
+
+/*
+    Secondary Icon Properties for Rounded Button
+*/
+
+$secondary-icon-background-image-position: center top 14px;
+$secondary-icon-background-image-size: 20px;
+$secondary-icon-background-repeat: no-repeat;
+
+
+/*
+    Basic Elements Properties
+*/
+
+$element-background-no-repeat: no-repeat;
+$element-background-position-center: center;
+$element-no-border: 0px;
+
+
+/*
+    Elements Properties for Gsp - Header
+*/
+
+$header-title-font-size: 20px;
+$header-subtitle-font-size: 18px;

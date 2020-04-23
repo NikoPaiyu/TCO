@@ -1,0 +1,243 @@
+
+// @import "assets/_styles/_variables";
+// @import "assets/_styles/_base";
+
+body{
+  letter-spacing: .01428571em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 1.075rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #3c4043;
+}
+// label{
+//   font-family: Roboto,Arial,sans-serif !important;
+// }
+// * {
+//     padding:0;
+//     margin:0;
+// }
+// .col-9{
+//     background-color: $color-light;
+//     height: auto;
+// }
+// body {
+//     font-family:  $font-secondary ;
+//     //overflow: hidden;
+//     // background-color: $color-dark;
+// }
+
+// button {
+//   outline: none !important;
+// }
+
+// .wrapper {
+//     height: 100vh !important;
+// }
+
+// .formlabel {
+//     color : $input-element-label-color;
+//     font-family:$font-primary-regular;
+//     font-size: $input-element-label-font-size;
+//     margin-bottom: 5px;
+// }
+
+// @font-face {
+//     font-family:'MetricHPE-Desktop-Regular';
+//    src: url('./assets/Font/MetricHPE-Desktop-Regular.otf');
+// }
+
+// .labelknow{
+//   font-family:$font-primary-regular;
+//   font-size: 1.2rem;
+//   // font-size: $input-element-label-font-size;
+// }
+// .formInput {
+//     color: $input-element-font-color;
+//     background-color :$input-element-background-color;
+//     height: $input-element-height;
+//     border: $input-element-border-color;
+//     padding-left: $input-element-padding-left;
+//     padding-top: $input-element-padding-top;
+//     font-family: $input-element-font-family;
+//     outline: none;
+
+//     &::placeholder {
+//       color: $color-placeholder;
+//       font-family: $font-primary-light;
+//     }
+
+// }
+// .formSelect {
+//   color: $select-element-font-color;
+//   background-color : $select-element-background-color;
+//   height : $select-element-height;
+//   border: $select-element-border;
+//   padding-left : $select-element-padding-left;
+//   padding-top: $select-element-padding-top;
+//   background-repeat: $select-background-repeat;
+//   background-size: $select-background-image-size;
+//   background-position: $select-background-image-position;
+//   background-image: url('assets/icons/downArrow.svg');
+//   outline: none;
+// }
+
+// .formSearch {
+//     color: $search-element-font-color ;
+//     background-color : $search-element-background-color;
+//     height: $search-element-height;
+//     border-radius: $search-element-border-radius;
+//     border: $search-element-border;
+//     padding-left: $search-element-padding-left;
+//     padding-top:  $search-element-padding-top;
+//     background-repeat: $select-background-repeat;
+//     background-size: $search-background-image-size;
+//     background-position: $search-background-image-position;
+//     background-image: url('assets/icons/search.svg');
+//     width: 400px;
+//     outline: none;
+// }
+
+// .primaryButton {
+//     background-color: $button-element-background-primary-color;
+//     color: $button-element-font-color-light ;
+//     padding-top: $button-element-padding-top;
+//     padding-left: $button-element-padding-left ;
+//     padding-right: $button-element-padding-right;
+//     height: $button-element-height;
+//     border-radius: $button-element-radius;
+//     font-family: $font-primary-medium ;
+//     border: 0;
+//     cursor: pointer;
+// }
+
+// .primaryButton:hover {
+//  box-shadow: 0px 2px 5px #ddd;
+// }
+
+// .editButton {
+//     background-color: $editbutton-element-backgroung-color;
+//     border: $editbutton-element-border;
+//     background-repeat: $editbutton-background-repeat;
+//     background-size: $editbutton-background-image-size;
+//     padding-left: $editbutton-element-padding-left;
+//     padding-right: $editbutton-element-padding-right;
+//     color: $editbutton-element-font-color-grey;
+//     background-position: $editbutton-background-image-position;
+//     background-image: url('assets/icons/edit.svg');
+// }
+
+// .detailViewButton {
+//   background-color: $detailViewbutton-element-backgroung-color;
+//   border: $detailViewbutton-element-border;
+//   background-repeat: $detailViewbutton-background-repeat;
+//   background-size: $detailViewbutton-background-image-size;
+//   padding-left: $detailViewbutton-element-padding-left;
+//   padding-right: $detailViewbutton-element-padding-right;
+//   color: $detailViewbutton-element-font-color-grey;
+//   background-position: $detailViewbutton-background-image-position;
+//   background-image: url('assets/icons/rightArrow.svg');
+// }
+
+// .clearButton {
+//     background-color: $color-transparent;
+//     border: $clearButton-element-border ;
+//     font-family: $font-primary-regular;
+//     cursor: pointer;
+// }
+
+// .clearButton:hover {
+//   font-family: $font-primary-medium;
+// }
+
+// .cancelButton {
+//   background-color: $color-transparent;
+//   color: $color-label;
+//   border: $clearButton-element-border;
+//   height: $clearButton-element-height;
+//   padding-top: $clearButton-element-padding-top;
+//   font-family: $font-primary-regular;
+//   margin-left: 15px !important;
+//   cursor: pointer;
+// }
+
+// .backButton {
+//   background-color: $color-transparent;
+//   background-image: url('assets/icons/backArroa.svg');
+//   border: $backButton-element-border;
+//   height: 30px;
+//   font-family: $font-primary-regular;
+//   background-repeat: $element-background-no-repeat;
+//   background-position: top 7px left 0px;
+//   background-size: 13px;
+//   width: 65px;
+//   color: $color-primary;
+// }
+
+// .roundButtonPrimary {
+//     height: $roundbutton-element-height ;
+//     width:  $roundbutton-element-width;
+//     border-radius: $roundbutton-element-radius;
+//     box-shadow: $roundbutton-element-box-shadow ;
+//     background-color: $roundbutton-element-primary-background;
+//     border: $roundbutton-element-border;
+//     cursor: pointer;
+//     outline: none;
+//     z-index: 100;
+// }
+
+// .roundButtonDark{
+//   height: $roundbutton-element-secondary-height;
+//   width: $roundbutton-element-secondary-width;
+//   border-radius: $roundbutton-element-radius;
+//   background-color: $roundbutton-element-secondary-background;
+//   border: $roundbutton-element-border;
+//   box-shadow: $roundbutton-element-box-shadow;
+//   cursor: pointer;
+//   outline: none;
+//   z-index: 100;
+// }
+
+
+// /*
+//     Pipeline By  Stage
+// */
+
+
+//     h6 {
+//       // font-family: $font-primary-regular;
+//       font-family: $font-primary-light;
+//       color: $font-default-color ;
+//       margin-bottom: 0px;
+//       font-size: 18px;
+//     }
+
+//     span {
+//       font-size: 16px;
+//     }
+
+  
+// .VerticalDivider {
+//     height: 7px;
+//     width: 1px;
+//     background-color: $dividerLine;
+//     display: inline-block;
+//     margin-left: 5px;
+//     margin-right: 5px;
+// }
+
+// .colorPrimary {
+//     color: $primaryColor;
+// }
+
+// /*
+//   Go Top Button
+// */
+
+// /*
+//     Altify
+// */
+
+// .altify-content {
+//   margin-top: 40px;
+// }
