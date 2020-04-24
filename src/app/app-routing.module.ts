@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from '@angular/router';
 import { ClientComponent } from './Client/client.component';
-import { HomeComponent } from './Home/home.component';
+import { HomeComponent } from './home/home.component';
 import { OracleComponent } from './oracle/oracle.component';
 import { ReportTCOComponent } from './report-tco/report-tco.component';
 import { CoreComponent } from './core/core.component';
